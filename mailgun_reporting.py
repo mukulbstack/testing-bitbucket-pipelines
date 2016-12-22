@@ -2,11 +2,7 @@ import json
 import requests
 import csv
 
-YOUR_DOMAIN_NAME="browserstack.com"
 YOUR_API_KEY="key-dde07bbe7f707b0182e2cda8709a283a"
-
-recepients = [];
-openers = [];
 
 def get_recepients(user_type):
     return requests.get(
